@@ -13,7 +13,7 @@
 >- You can do this in your way too
 >- let me show you another way
 
-```
+```py
 - a=int(input())
 - b=int(input())
 - c=a+b
