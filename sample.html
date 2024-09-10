@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <center>
+    <h1><u>Content Change</u></h1>
+    <h1 id="one">Hello world</h1>
+    <button onclick="change()">Change</button>
+    <br>
+    <br>
+    <h1><u>Sum of two numbers</u></h1>
+    <input id="two">num1
+    <br>
+    <input id="three">num2
+    <br>
+    <button onclick="sum()">Add</button>
+    <h2 id="res">Result</h2>
+    <script>
+        var a=document.getElementById("one")
+        var b=document.getElementById("two")
+        var c=document.getElementById("three")
+        var r=document.getElementById("res")
+  
+        function change(){
+            a.textContent="Bye world"
+        }
+        function sum(){
+            var num1=b.value
+            var num2=c.value
+            var total=(Number(num1)+Number(num2))
+            r.textContent=total
+        }
+    </script>
+    <h2>I hope you would have liked this creation! To go to the home page-> <a href="index.html">Home</a></h2>
+    </center>
+</body>
+</html>
